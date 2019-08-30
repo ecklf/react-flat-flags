@@ -16,65 +16,46 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Moldova_svg_clip1">
-          <path d="M 24 0 L 37 0 L 37 25 L 24 25 Z M 24 0 " />
+        <clipPath id="Moldova_svg_prefix__a">
+          <path d="M24 0h13v25H24zm0 0" />
         </clipPath>
-        <clipPath id="Moldova_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Moldova_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Moldova_svg_clip3">
-          <path d="M 0 0 L 13 0 L 13 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Moldova_svg_prefix__c">
+          <path d="M0 0h13v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Moldova_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Moldova_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Moldova_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,83.529412%,37.254902%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Moldova_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Moldova_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 24.835938 0 L 37.519531 0 L 37.519531 24.992188 L 24.835938 24.992188 Z M 24.835938 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#f5d55f"
+      />
+      <g clipPath="url(#Moldova_svg_prefix__a)">
+        <g clipPath="url(#Moldova_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M24.836 0H37.52v24.992H24.836zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Moldova_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Moldova_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(28.627451%,53.72549%,85.882353%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.527344 0 L 12.152344 0 L 12.152344 24.992188 L -0.527344 24.992188 Z M -0.527344 0 "
-            />
-          </g>
-        </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "nonzero",
-            fill: "rgb(26.27451%,28.627451%,32.54902%)",
-            fillOpacity: 1,
-          }}
-          d="M 14.785156 11.386719 L 16.324219 9.046875 C 16.519531 8.753906 16.9375 8.515625 17.257812 8.515625 L 20.953125 8.515625 L 22.183594 15.941406 L 16.496094 15.941406 L 17.246094 11.386719 Z M 14.785156 11.386719 "
-        />
       </g>
+      <g clipPath="url(#Moldova_svg_prefix__c)">
+        <g clipPath="url(#Moldova_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M-.527 0h12.68v24.992H-.528zm0 0"
+            fillRule="evenodd"
+            fill="#4989db"
+          />
+        </g>
+      </g>
+      <path
+        d="M14.785 11.387l1.54-2.34c.195-.293.613-.531.933-.531h3.695l1.23 7.425h-5.687l.75-4.554zm0 0"
+        fill="#434953"
+      />
     </svg>
   );
 };

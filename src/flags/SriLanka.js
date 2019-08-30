@@ -16,73 +16,55 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="SriLanka_svg_clip1">
-          <path d="M 2 2 L 8 2 L 8 23 L 2 23 Z M 2 2 " />
+        <clipPath id="SriLanka_svg_prefix__a">
+          <path d="M2 2h6v21H2zm0 0" />
         </clipPath>
-        <clipPath id="SriLanka_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SriLanka_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SriLanka_svg_clip3">
-          <path d="M 7 2 L 14 2 L 14 23 L 7 23 Z M 7 2 " />
+        <clipPath id="SriLanka_svg_prefix__c">
+          <path d="M7 2h7v21H7zm0 0" />
         </clipPath>
-        <clipPath id="SriLanka_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SriLanka_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SriLanka_svg_clip5">
-          <path d="M 15 2 L 35 2 L 35 23 L 15 23 Z M 15 2 " />
+        <clipPath id="SriLanka_svg_prefix__e">
+          <path d="M15 2h20v21H15zm0 0" />
         </clipPath>
-        <clipPath id="SriLanka_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SriLanka_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="SriLanka_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,80.392157%,32.54902%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#SriLanka_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#SriLanka_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M 2.640625 2.660156 L 7.925781 2.660156 L 7.925781 22.863281 L 2.640625 22.863281 Z M 2.640625 2.660156 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ffcd53"
+      />
+      <g clipPath="url(#SriLanka_svg_prefix__a)">
+        <g clipPath="url(#SriLanka_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M2.64 2.66h5.286v20.203H2.64zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
-        <g clipPath="url(#SriLanka_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#SriLanka_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,51.372549%,8.627451%)",
-                fillOpacity: 1,
-              }}
-              d="M 7.925781 2.660156 L 13.210938 2.660156 L 13.210938 22.863281 L 7.925781 22.863281 Z M 7.925781 2.660156 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SriLanka_svg_prefix__c)">
+        <g clipPath="url(#SriLanka_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M7.926 2.66h5.285v20.203H7.926zm0 0"
+            fillRule="evenodd"
+            fill="#ff8316"
+          />
         </g>
-        <g clipPath="url(#SriLanka_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#SriLanka_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 15.324219 2.660156 L 34.347656 2.660156 L 34.347656 22.863281 L 15.324219 22.863281 Z M 15.324219 2.660156 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SriLanka_svg_prefix__e)">
+        <g clipPath="url(#SriLanka_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M15.324 2.66h19.024v20.203H15.324zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
       </g>
     </svg>

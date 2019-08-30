@@ -16,78 +16,53 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Jamaica_svg_clip1">
-          <path d="M 0 0 L 17 0 L 17 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Jamaica_svg_prefix__a">
+          <path d="M0 0h17v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Jamaica_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Jamaica_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Jamaica_svg_clip3">
-          <path d="M 20 0 L 37 0 L 37 25 L 20 25 Z M 20 0 " />
+        <clipPath id="Jamaica_svg_prefix__c">
+          <path d="M20 0h17v25H20zm0 0" />
         </clipPath>
-        <clipPath id="Jamaica_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Jamaica_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Jamaica_svg_clip5">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Jamaica_svg_prefix__e">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Jamaica_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(31.764706%,75.686275%,38.039216%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Jamaica_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Jamaica_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 16.910156 12.761719 L 0 24.992188 Z M 0 0 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Jamaica_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Jamaica_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 37.519531 0 L 20.609375 12.761719 L 37.519531 24.992188 Z M 37.519531 0 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Jamaica_svg_clip5)" clipRule="evenodd">
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#51c161"
+      />
+      <g clipPath="url(#Jamaica_svg_prefix__a)">
+        <g clipPath="url(#Jamaica_svg_prefix__b)" clipRule="evenodd">
           <path
-            style={{
-              stroke: "none",
-              fillRule: "evenodd",
-              fill: "rgb(100%,80.392157%,32.54902%)",
-              fillOpacity: 1,
-            }}
-            d="M -0.289062 26.433594 L -1.71875 24.199219 L 37.804688 -1.445312 L 39.238281 0.789062 Z M -0.289062 26.433594 "
-          />
-          <path
-            style={{
-              stroke: "none",
-              fillRule: "evenodd",
-              fill: "rgb(100%,80.392157%,32.54902%)",
-              fillOpacity: 1,
-            }}
-            d="M 37.683594 26.585938 L 39.105469 24.367188 L -0.164062 -1.0625 L -1.585938 1.152344 Z M 37.683594 26.585938 "
+            d="M0 0l16.91 12.762L0 24.992zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
           />
         </g>
+      </g>
+      <g clipPath="url(#Jamaica_svg_prefix__c)">
+        <g clipPath="url(#Jamaica_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M37.52 0L20.61 12.762l16.91 12.23zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
+        </g>
+      </g>
+      <g
+        clipPath="url(#Jamaica_svg_prefix__e)"
+        clipRule="evenodd"
+        fillRule="evenodd"
+        fill="#ffcd53"
+      >
+        <path d="M-.29 26.434l-1.429-2.235L37.805-1.445 39.238.789zm0 0" />
+        <path d="M37.684 26.586l1.421-2.219-39.27-25.43-1.42 2.215zm0 0" />
       </g>
     </svg>
   );

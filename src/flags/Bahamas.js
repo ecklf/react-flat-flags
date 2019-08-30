@@ -16,54 +16,40 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Bahamas_svg_clip1">
-          <path d="M 0 8 L 37 8 L 37 18 L 0 18 Z M 0 8 " />
+        <clipPath id="Bahamas_svg_prefix__a">
+          <path d="M0 8h37v10H0zm0 0" />
         </clipPath>
-        <clipPath id="Bahamas_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Bahamas_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Bahamas_svg_clip3">
-          <path d="M 0 0 L 16 0 L 16 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Bahamas_svg_prefix__c">
+          <path d="M0 0h16v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Bahamas_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Bahamas_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Bahamas_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(23.137255%,68.627451%,85.098039%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Bahamas_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Bahamas_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 8.507812 L 36.988281 8.507812 L 36.988281 17.015625 L 0 17.015625 Z M 0 8.507812 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#3bafd9"
+      />
+      <g clipPath="url(#Bahamas_svg_prefix__a)">
+        <g clipPath="url(#Bahamas_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 8.508h36.988v8.508H0zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
         </g>
-        <g clipPath="url(#Bahamas_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Bahamas_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 15.324219 12.761719 L 0 24.992188 Z M 0 0 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Bahamas_svg_prefix__c)">
+        <g clipPath="url(#Bahamas_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 0l15.324 12.762L0 24.992zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
       </g>
     </svg>

@@ -16,73 +16,55 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="SaintLucia_svg_clip1">
-          <path d="M 7 3 L 29 3 L 29 23 L 7 23 Z M 7 3 " />
+        <clipPath id="SaintLucia_svg_prefix__a">
+          <path d="M7 3h22v20H7zm0 0" />
         </clipPath>
-        <clipPath id="SaintLucia_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintLucia_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SaintLucia_svg_clip3">
-          <path d="M 9 6 L 27 6 L 27 23 L 9 23 Z M 9 6 " />
+        <clipPath id="SaintLucia_svg_prefix__c">
+          <path d="M9 6h18v17H9zm0 0" />
         </clipPath>
-        <clipPath id="SaintLucia_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintLucia_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SaintLucia_svg_clip5">
-          <path d="M 7 14 L 29 14 L 29 23 L 7 23 Z M 7 14 " />
+        <clipPath id="SaintLucia_svg_prefix__e">
+          <path d="M7 14h22v9H7zm0 0" />
         </clipPath>
-        <clipPath id="SaintLucia_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintLucia_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="SaintLucia_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(23.137255%,68.627451%,85.098039%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#SaintLucia_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#SaintLucia_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(96.078431%,96.862745%,97.647059%)",
-                fillOpacity: 1,
-              }}
-              d="M 7.925781 22.863281 L 18.179688 3.722656 L 28.007812 22.863281 Z M 7.925781 22.863281 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#3bafd9"
+      />
+      <g clipPath="url(#SaintLucia_svg_prefix__a)">
+        <g clipPath="url(#SaintLucia_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M7.926 22.863L18.18 3.723l9.828 19.14zm0 0"
+            fillRule="evenodd"
+            fill="#f5f7f9"
+          />
         </g>
-        <g clipPath="url(#SaintLucia_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#SaintLucia_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 9.511719 22.863281 L 18.144531 6.382812 L 26.421875 22.863281 Z M 9.511719 22.863281 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SaintLucia_svg_prefix__c)">
+        <g clipPath="url(#SaintLucia_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M9.512 22.863l8.633-16.48 8.277 16.48zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
-        <g clipPath="url(#SaintLucia_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#SaintLucia_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 7.925781 22.863281 L 18.144531 14.886719 L 28.007812 22.863281 Z M 7.925781 22.863281 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SaintLucia_svg_prefix__e)">
+        <g clipPath="url(#SaintLucia_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M7.926 22.863l10.219-7.976 9.863 7.976zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
         </g>
       </g>
     </svg>

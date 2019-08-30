@@ -16,103 +16,76 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="SouthSudan_svg_clip1">
-          <path d="M 0 0 L 37 0 L 37 9 L 0 9 Z M 0 0 " />
+        <clipPath id="SouthSudan_svg_prefix__a">
+          <path d="M0 0h37v9H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthSudan_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip3">
-          <path d="M 0 8 L 37 8 L 37 18 L 0 18 Z M 0 8 " />
+        <clipPath id="SouthSudan_svg_prefix__c">
+          <path d="M0 8h37v10H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthSudan_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip5">
-          <path d="M 0 9 L 37 9 L 37 16 L 0 16 Z M 0 9 " />
+        <clipPath id="SouthSudan_svg_prefix__e">
+          <path d="M0 9h37v7H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthSudan_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip7">
-          <path d="M 0 3 L 17 3 L 17 23 L 0 23 Z M 0 3 " />
+        <clipPath id="SouthSudan_svg_prefix__g">
+          <path d="M0 3h17v20H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthSudan_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthSudan_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="SouthSudan_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(34.117647%,65.490196%,38.823529%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#SouthSudan_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#SouthSudan_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 8.507812 L 0 8.507812 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#57a763"
+      />
+      <g clipPath="url(#SouthSudan_svg_prefix__a)">
+        <g clipPath="url(#SouthSudan_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v8.508H0zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
-        <g clipPath="url(#SouthSudan_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#SouthSudan_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,100%,100%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 8.507812 L 36.988281 8.507812 L 36.988281 17.015625 L 0 17.015625 Z M 0 8.507812 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#SouthSudan_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#SouthSudan_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 9.570312 L 36.988281 9.570312 L 36.988281 15.953125 L 0 15.953125 Z M 0 9.570312 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#SouthSudan_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#SouthSudan_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.53125 13.027344 L -0.460938 3.1875 L 16.914062 13.027344 L -0.460938 22.867188 Z M -0.53125 13.027344 "
-            />
-          </g>
-        </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "nonzero",
-            fill: "rgb(100%,80.392157%,32.54902%)",
-            fillOpacity: 1,
-          }}
-          d="M 4.628906 15.738281 C 4.414062 16.027344 4.21875 15.96875 4.191406 15.605469 L 4.09375 14.253906 C 4.070312 13.890625 3.777344 13.476562 3.449219 13.332031 L 2.292969 12.824219 C 1.964844 12.679688 1.972656 12.46875 2.308594 12.351562 L 3.5625 11.910156 C 3.898438 11.792969 4.164062 11.398438 4.15625 11.035156 L 4.121094 9.539062 C 4.109375 9.175781 4.28125 9.113281 4.5 9.402344 L 5.402344 10.605469 C 5.621094 10.894531 6.078125 11.046875 6.417969 10.941406 L 7.714844 10.542969 C 8.054688 10.4375 8.183594 10.605469 7.996094 10.914062 L 7.292969 12.101562 C 7.105469 12.410156 7.121094 12.914062 7.320312 13.214844 L 7.984375 14.21875 C 8.183594 14.523438 8.0625 14.699219 7.714844 14.609375 L 6.460938 14.285156 C 6.113281 14.195312 5.65625 14.359375 5.441406 14.648438 Z M 4.628906 15.738281 "
-        />
       </g>
+      <g clipPath="url(#SouthSudan_svg_prefix__c)">
+        <g clipPath="url(#SouthSudan_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 8.508h36.988v8.508H0zm0 0"
+            fillRule="evenodd"
+            fill="#fff"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#SouthSudan_svg_prefix__e)">
+        <g clipPath="url(#SouthSudan_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M0 9.57h36.988v6.383H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#SouthSudan_svg_prefix__g)">
+        <g clipPath="url(#SouthSudan_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M-.531 13.027l.07-9.84 17.375 9.84-17.375 9.84zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
+        </g>
+      </g>
+      <path
+        d="M4.629 15.738c-.215.29-.41.23-.438-.133l-.097-1.351c-.024-.363-.317-.777-.645-.922l-1.156-.508c-.328-.144-.32-.355.016-.472l1.253-.442c.336-.117.602-.512.594-.875L4.121 9.54c-.012-.363.16-.426.379-.137l.902 1.203c.22.29.676.442 1.016.336l1.297-.398c.34-.105.469.062.281.371l-.703 1.188c-.188.308-.172.812.027 1.113l.664 1.004c.2.304.079.48-.27.39l-1.253-.324c-.348-.09-.805.074-1.02.363zm0 0"
+        fill="#ffcd53"
+      />
     </svg>
   );
 };

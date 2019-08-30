@@ -16,111 +16,84 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Cuba_svg_clip1">
-          <path d="M 0 0 L 37 0 L 37 5 L 0 5 Z M 0 0 " />
+        <clipPath id="Cuba_svg_prefix__a">
+          <path d="M0 0h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Cuba_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip3">
-          <path d="M 0 20 L 37 20 L 37 25 L 0 25 Z M 0 20 " />
+        <clipPath id="Cuba_svg_prefix__c">
+          <path d="M0 20h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Cuba_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip5">
-          <path d="M 0 10 L 37 10 L 37 15 L 0 15 Z M 0 10 " />
+        <clipPath id="Cuba_svg_prefix__e">
+          <path d="M0 10h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Cuba_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip7">
-          <path d="M 0 0 L 16 0 L 16 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Cuba_svg_prefix__g">
+          <path d="M0 0h16v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Cuba_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip9">
-          <path d="M 2 10 L 7 10 L 7 15 L 2 15 Z M 2 10 " />
+        <clipPath id="Cuba_svg_prefix__i">
+          <path d="M2 10h5v5H2zm0 0" />
         </clipPath>
-        <clipPath id="Cuba_svg_clip10">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Cuba_svg_prefix__j">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Cuba_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Cuba_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Cuba_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 4.253906 L 0 4.253906 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <g clipPath="url(#Cuba_svg_prefix__a)">
+        <g clipPath="url(#Cuba_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
         </g>
-        <g clipPath="url(#Cuba_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Cuba_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 20.738281 L 36.988281 20.738281 L 36.988281 24.992188 L 0 24.992188 Z M 0 20.738281 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Cuba_svg_prefix__c)">
+        <g clipPath="url(#Cuba_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 20.738h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
         </g>
-        <g clipPath="url(#Cuba_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Cuba_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 10.632812 L 36.988281 10.632812 L 36.988281 14.886719 L 0 14.886719 Z M 0 10.632812 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Cuba_svg_prefix__e)">
+        <g clipPath="url(#Cuba_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M0 10.633h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
         </g>
-        <g clipPath="url(#Cuba_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#Cuba_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 15.324219 12.761719 L 0 24.992188 Z M 0 0 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Cuba_svg_prefix__g)">
+        <g clipPath="url(#Cuba_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M0 0l15.324 12.762L0 24.992zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Cuba_svg_clip9)" clipRule="nonzero">
-          <g clipPath="url(#Cuba_svg_clip10)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(96.078431%,96.862745%,97.647059%)",
-                fillOpacity: 1,
-              }}
-              d="M 5.164062 14.695312 C 5.121094 14.929688 4.984375 14.953125 4.859375 14.753906 L 4.390625 14 C 4.261719 13.796875 3.960938 13.644531 3.722656 13.664062 L 2.871094 13.726562 C 2.628906 13.746094 2.570312 13.621094 2.734375 13.449219 L 3.355469 12.804688 C 3.523438 12.632812 3.566406 12.320312 3.449219 12.113281 L 2.972656 11.257812 C 2.859375 11.050781 2.941406 10.960938 3.160156 11.0625 L 4.070312 11.480469 C 4.289062 11.578125 4.609375 11.527344 4.785156 11.359375 L 5.445312 10.730469 C 5.617188 10.5625 5.742188 10.621094 5.726562 10.855469 L 5.660156 11.765625 C 5.644531 12 5.804688 12.285156 6.015625 12.398438 L 6.722656 12.777344 C 6.933594 12.890625 6.914062 13.03125 6.679688 13.085938 L 5.824219 13.285156 C 5.589844 13.339844 5.363281 13.578125 5.320312 13.8125 Z M 5.164062 14.695312 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Cuba_svg_prefix__i)">
+        <g clipPath="url(#Cuba_svg_prefix__j)" clipRule="evenodd">
+          <path
+            d="M5.164 14.695c-.043.235-.18.258-.305.059L4.391 14a.798.798 0 00-.668-.336l-.852.063c-.242.02-.3-.106-.137-.278l.621-.644a.619.619 0 00.094-.692l-.476-.855c-.114-.207-.032-.297.187-.195l.91.417c.22.098.54.047.715-.12l.66-.63c.172-.168.297-.109.282.125l-.067.91a.732.732 0 00.356.633l.707.38c.21.113.191.253-.043.308l-.856.2a.725.725 0 00-.504.527zm0 0"
+            fill="#f5f7f9"
+          />
         </g>
       </g>
     </svg>

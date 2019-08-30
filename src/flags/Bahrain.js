@@ -16,82 +16,52 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Bahrain_svg_clip1">
-          <path d="M 0 0 L 10 0 L 10 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Bahrain_svg_prefix__a">
+          <path d="M0 0h10v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Bahrain_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Bahrain_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Bahrain_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(92.941176%,33.333333%,39.607843%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Bahrain_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Bahrain_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(96.078431%,96.862745%,97.647059%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 9.511719 0 L 9.511719 24.992188 L 0 24.992188 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ed5565"
+      />
+      <g clipPath="url(#Bahrain_svg_prefix__a)">
+        <g clipPath="url(#Bahrain_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h9.512v24.992H0zm0 0"
+            fillRule="evenodd"
+            fill="#f5f7f9"
+          />
         </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 6.339844 2.753906 L 9.246094 0 L 12.152344 2.753906 L 9.246094 5.511719 Z M 6.339844 2.753906 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 6.339844 7.625 L 9.246094 4.871094 L 12.152344 7.625 L 9.246094 10.378906 Z M 6.339844 7.625 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 6.339844 12.496094 L 9.246094 9.742188 L 12.152344 12.496094 L 9.246094 15.25 Z M 6.339844 12.496094 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 6.339844 17.367188 L 9.246094 14.609375 L 12.152344 17.367188 L 9.246094 20.121094 Z M 6.339844 17.367188 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 6.339844 22.238281 L 9.246094 19.480469 L 12.152344 22.238281 L 9.246094 24.992188 Z M 6.339844 22.238281 "
-        />
       </g>
+      <path
+        d="M6.34 2.754L9.246 0l2.906 2.754-2.906 2.758zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <path
+        d="M6.34 7.625l2.906-2.754 2.906 2.754-2.906 2.754zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <path
+        d="M6.34 12.496l2.906-2.754 2.906 2.754-2.906 2.754zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <path
+        d="M6.34 17.367l2.906-2.758 2.906 2.758-2.906 2.754zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <path
+        d="M6.34 22.238l2.906-2.758 2.906 2.758-2.906 2.754zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
     </svg>
   );
 };

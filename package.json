@@ -1,6 +1,6 @@
 {
   "name": "react-flat-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flat Flags for React",
   "main": "index.js",
   "module": "dist/index.js",
@@ -12,7 +12,7 @@
     "compile": "rm -rf src/ && node -r esm bin/build.js && yarn format",
     "build:es": "rm -rf dist && babel src --out-dir dist --copy-files",
     "build:bundle": "rm -rf build && rollup --config rollup.config.js",
-    "build": "concurrently \"npm:build:*\"",
+    "build": "concurrently \"yarn:build:*\"",
     "deploy": "yarn compile && yarn build"
   },
   "repository": "https://github.com/impulse/react-flat-flags",

@@ -16,92 +16,58 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="DominicanRepublic_svg_clip1">
-          <path d="M 0 0 L 17 0 L 17 11 L 0 11 Z M 0 0 " />
+        <clipPath id="DominicanRepublic_svg_prefix__a">
+          <path d="M0 0h17v11H0zm0 0" />
         </clipPath>
-        <clipPath id="DominicanRepublic_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="DominicanRepublic_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="DominicanRepublic_svg_clip3">
-          <path d="M 20 14 L 37 14 L 37 25 L 20 25 Z M 20 14 " />
+        <clipPath id="DominicanRepublic_svg_prefix__c">
+          <path d="M20 14h17v11H20zm0 0" />
         </clipPath>
-        <clipPath id="DominicanRepublic_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="DominicanRepublic_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="DominicanRepublic_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(92.941176%,33.333333%,39.607843%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#DominicanRepublic_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#DominicanRepublic_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 16.382812 0 L 16.382812 10.632812 L 0 10.632812 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ed5565"
+      />
+      <g clipPath="url(#DominicanRepublic_svg_prefix__a)">
+        <g clipPath="url(#DominicanRepublic_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h16.383v10.633H0zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
         </g>
-        <g clipPath="url(#DominicanRepublic_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#DominicanRepublic_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 20.609375 14.886719 L 36.988281 14.886719 L 36.988281 24.992188 L 20.609375 24.992188 Z M 20.609375 14.886719 "
-            />
-          </g>
-        </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,100%,100%)",
-            fillOpacity: 1,
-          }}
-          d="M 16.382812 0 L 20.609375 0 L 20.609375 24.992188 L 16.382812 24.992188 Z M 16.382812 0 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,100%,100%)",
-            fillOpacity: 1,
-          }}
-          d="M 0 10.632812 L 36.988281 10.632812 L 36.988281 14.886719 L 0 14.886719 Z M 0 10.632812 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(31.764706%,75.686275%,38.039216%)",
-            fillOpacity: 1,
-          }}
-          d="M 18.496094 10.632812 C 19.660156 10.632812 20.609375 11.585938 20.609375 12.761719 C 20.609375 13.9375 19.660156 14.886719 18.496094 14.886719 C 17.328125 14.886719 16.382812 13.9375 16.382812 12.761719 C 16.382812 11.585938 17.328125 10.632812 18.496094 10.632812 Z M 18.496094 10.632812 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,100%,100%)",
-            fillOpacity: 1,
-          }}
-          d="M 18.496094 11.167969 C 19.371094 11.167969 20.078125 11.878906 20.078125 12.761719 C 20.078125 13.644531 19.371094 14.355469 18.496094 14.355469 C 17.621094 14.355469 16.910156 13.644531 16.910156 12.761719 C 16.910156 11.878906 17.621094 11.167969 18.496094 11.167969 Z M 18.496094 11.167969 "
-        />
       </g>
+      <g clipPath="url(#DominicanRepublic_svg_prefix__c)">
+        <g clipPath="url(#DominicanRepublic_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M20.61 14.887h16.378v10.105H20.61zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
+        </g>
+      </g>
+      <path
+        d="M16.383 0h4.226v24.992h-4.226zm0 0"
+        fillRule="evenodd"
+        fill="#fff"
+      />
+      <path d="M0 10.633h36.988v4.254H0zm0 0" fillRule="evenodd" fill="#fff" />
+      <path
+        d="M18.496 10.633c1.164 0 2.113.953 2.113 2.129a2.12 2.12 0 01-2.113 2.125 2.117 2.117 0 01-2.113-2.125 2.12 2.12 0 012.113-2.13zm0 0"
+        fillRule="evenodd"
+        fill="#51c161"
+      />
+      <path
+        d="M18.496 11.168c.875 0 1.582.71 1.582 1.594 0 .883-.707 1.593-1.582 1.593-.875 0-1.586-.71-1.586-1.593s.711-1.594 1.586-1.594zm0 0"
+        fillRule="evenodd"
+        fill="#fff"
+      />
     </svg>
   );
 };

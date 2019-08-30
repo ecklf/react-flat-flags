@@ -16,141 +16,100 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip1">
-          <path d="M 12 9 L 18 9 L 18 15 L 12 15 Z M 12 9 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__a">
+          <path d="M12 9h6v6h-6zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip3">
-          <path d="M 15 12 L 22 12 L 22 18 L 15 18 Z M 15 12 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__c">
+          <path d="M15 12h7v6h-7zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip5">
-          <path d="M 19 9 L 25 9 L 25 15 L 19 15 Z M 19 9 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__e">
+          <path d="M19 9h6v6h-6zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip7">
-          <path d="M 0 0 L 11 0 L 11 25 L 0 25 Z M 0 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__g">
+          <path d="M0 0h11v25H0zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip9">
-          <path d="M 26 0 L 37 0 L 37 25 L 26 25 Z M 26 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__i">
+          <path d="M26 0h11v25H26zm0 0" />
         </clipPath>
-        <clipPath id="SaintVincentAndGrenadines_svg_clip10">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SaintVincentAndGrenadines_svg_prefix__j">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="SaintVincentAndGrenadines_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,80.392157%,32.54902%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ffcd53"
+      />
+      <g clipPath="url(#SaintVincentAndGrenadines_svg_prefix__a)">
         <g
-          clipPath="url(#SaintVincentAndGrenadines_svg_clip1)"
-          clipRule="nonzero"
+          clipPath="url(#SaintVincentAndGrenadines_svg_prefix__b)"
+          clipRule="evenodd"
         >
-          <g
-            clipPath="url(#SaintVincentAndGrenadines_svg_clip2)"
-            clipRule="evenodd"
-          >
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M 12.515625 11.699219 L 15.132812 9.066406 L 17.746094 11.699219 L 15.132812 14.332031 Z M 12.515625 11.699219 "
-            />
-          </g>
+          <path
+            d="M12.516 11.7l2.617-2.634 2.613 2.633-2.613 2.633zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
+      </g>
+      <g clipPath="url(#SaintVincentAndGrenadines_svg_prefix__c)">
         <g
-          clipPath="url(#SaintVincentAndGrenadines_svg_clip3)"
-          clipRule="nonzero"
+          clipPath="url(#SaintVincentAndGrenadines_svg_prefix__d)"
+          clipRule="evenodd"
         >
-          <g
-            clipPath="url(#SaintVincentAndGrenadines_svg_clip4)"
-            clipRule="evenodd"
-          >
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M 15.878906 15.082031 L 18.496094 12.449219 L 21.109375 15.082031 L 18.496094 17.714844 Z M 15.878906 15.082031 "
-            />
-          </g>
+          <path
+            d="M15.879 15.082l2.617-2.633 2.613 2.633-2.613 2.633zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
+      </g>
+      <g clipPath="url(#SaintVincentAndGrenadines_svg_prefix__e)">
         <g
-          clipPath="url(#SaintVincentAndGrenadines_svg_clip5)"
-          clipRule="nonzero"
+          clipPath="url(#SaintVincentAndGrenadines_svg_prefix__f)"
+          clipRule="evenodd"
         >
-          <g
-            clipPath="url(#SaintVincentAndGrenadines_svg_clip6)"
-            clipRule="evenodd"
-          >
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M 19.242188 11.699219 L 21.859375 9.066406 L 24.472656 11.699219 L 21.859375 14.332031 Z M 19.242188 11.699219 "
-            />
-          </g>
+          <path
+            d="M19.242 11.7l2.617-2.634 2.614 2.633-2.614 2.633zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
+      </g>
+      <g clipPath="url(#SaintVincentAndGrenadines_svg_prefix__g)">
         <g
-          clipPath="url(#SaintVincentAndGrenadines_svg_clip7)"
-          clipRule="nonzero"
+          clipPath="url(#SaintVincentAndGrenadines_svg_prefix__h)"
+          clipRule="evenodd"
         >
-          <g
-            clipPath="url(#SaintVincentAndGrenadines_svg_clip8)"
-            clipRule="evenodd"
-          >
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 10.570312 0 L 10.570312 25.523438 L 0 25.523438 Z M 0 0 "
-            />
-          </g>
+          <path
+            d="M0 0h10.57v25.523H0zm0 0"
+            fillRule="evenodd"
+            fill="#4757a9"
+          />
         </g>
+      </g>
+      <g clipPath="url(#SaintVincentAndGrenadines_svg_prefix__i)">
         <g
-          clipPath="url(#SaintVincentAndGrenadines_svg_clip9)"
-          clipRule="nonzero"
+          clipPath="url(#SaintVincentAndGrenadines_svg_prefix__j)"
+          clipRule="evenodd"
         >
-          <g
-            clipPath="url(#SaintVincentAndGrenadines_svg_clip10)"
-            clipRule="evenodd"
-          >
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M 26.421875 0 L 36.988281 0 L 36.988281 25.523438 L 26.421875 25.523438 Z M 26.421875 0 "
-            />
-          </g>
+          <path
+            d="M26.422 0h10.566v25.523H26.422zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
       </g>
     </svg>

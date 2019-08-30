@@ -16,130 +16,100 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Vanuatu_svg_clip1">
-          <path d="M 0 0 L 37 0 L 37 11 L 0 11 Z M 0 0 " />
+        <clipPath id="Vanuatu_svg_prefix__g">
+          <path d="M0 0h19v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Vanuatu_svg_prefix__a">
+          <path d="M0 0h37v11H0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip3">
-          <path d="M 0 0 L 22 0 L 22 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Vanuatu_svg_prefix__c">
+          <path d="M0 0h22v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Vanuatu_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip5">
-          <path d="M 14 10 L 37 10 L 37 15 L 14 15 Z M 14 10 " />
+        <clipPath id="Vanuatu_svg_prefix__e">
+          <path d="M14 10h23v5H14zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Vanuatu_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip7">
-          <path d="M 0 0 L 19 0 L 19 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Vanuatu_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Vanuatu_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip9">
-          <path d="M 14 11 L 37 11 L 37 14 L 14 14 Z M 14 11 " />
+        <clipPath id="Vanuatu_svg_prefix__i">
+          <path d="M14 11h23v3H14zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip10">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Vanuatu_svg_prefix__j">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip11">
-          <path d="M 0 4 L 15 4 L 15 21 L 0 21 Z M 0 4 " />
+        <clipPath id="Vanuatu_svg_prefix__k">
+          <path d="M0 4h15v17H0zm0 0" />
         </clipPath>
-        <clipPath id="Vanuatu_svg_clip12">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Vanuatu_svg_prefix__l">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Vanuatu_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(34.117647%,65.490196%,38.823529%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Vanuatu_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Vanuatu_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 10.632812 L 0 10.632812 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#57a763"
+      />
+      <g clipPath="url(#Vanuatu_svg_prefix__a)">
+        <g clipPath="url(#Vanuatu_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v10.633H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Vanuatu_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Vanuatu_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M -8.460938 12.496094 L -8.339844 -4.261719 L 21.292969 12.496094 L -8.339844 29.253906 Z M -8.460938 12.496094 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Vanuatu_svg_prefix__c)">
+        <g clipPath="url(#Vanuatu_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M-8.46 12.496l.12-16.758 29.633 16.758L-8.34 29.254zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
-        <g clipPath="url(#Vanuatu_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Vanuatu_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 14.800781 10.109375 L 40.160156 10.109375 L 40.160156 14.882812 L 14.800781 14.882812 Z M 14.800781 10.109375 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Vanuatu_svg_prefix__e)">
+        <g clipPath="url(#Vanuatu_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M14.8 10.11h25.36v4.773H14.8zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
-        <g clipPath="url(#Vanuatu_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#Vanuatu_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M -7.40625 12.496094 L -7.300781 -2.132812 L 18.5 12.496094 L -7.300781 27.125 Z M -7.40625 12.496094 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Vanuatu_svg_prefix__g)">
+        <g clipPath="url(#Vanuatu_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M-7.406 12.496l.105-14.629L18.5 12.497-7.3 27.124zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
         </g>
-        <g clipPath="url(#Vanuatu_svg_clip9)" clipRule="nonzero">
-          <g clipPath="url(#Vanuatu_svg_clip10)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 14.796875 11.167969 L 36.988281 11.167969 L 36.988281 13.824219 L 14.796875 13.824219 Z M 14.796875 11.167969 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Vanuatu_svg_prefix__i)">
+        <g clipPath="url(#Vanuatu_svg_prefix__j)" clipRule="evenodd">
+          <path
+            d="M14.797 11.168h22.191v2.656H14.797zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
         </g>
-        <g clipPath="url(#Vanuatu_svg_clip11)" clipRule="nonzero">
-          <g clipPath="url(#Vanuatu_svg_clip12)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.00390625 12.496094 L 0.0546875 4.25 L 14.269531 12.496094 L 0.0546875 20.742188 Z M -0.00390625 12.496094 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Vanuatu_svg_prefix__k)">
+        <g clipPath="url(#Vanuatu_svg_prefix__l)" clipRule="evenodd">
+          <path
+            d="M-.004 12.496L.055 4.25l14.215 8.246L.055 20.742zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
       </g>
     </svg>

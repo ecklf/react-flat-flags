@@ -6,7 +6,7 @@ export default (componentName, svgCode) => {
     svgr
       .sync(svgCode, {
         template,
-        svgo: false,
+        svgo: true,
         svgProps: {size: '{size}', width: '{width}', height: '{height}'},
         componentName: componentName,
         plugins: [

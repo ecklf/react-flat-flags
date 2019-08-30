@@ -16,73 +16,54 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Spain_svg_clip1">
-          <path d="M 0 0 L 37 0 L 37 6 L 0 6 Z M 0 0 " />
+        <clipPath id="Spain_svg_prefix__a">
+          <path d="M0 0h37v6H0zm0 0" />
         </clipPath>
-        <clipPath id="Spain_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Spain_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Spain_svg_clip3">
-          <path d="M 0 19 L 37 19 L 37 25 L 0 25 Z M 0 19 " />
+        <clipPath id="Spain_svg_prefix__c">
+          <path d="M0 19h37v6H0zm0 0" />
         </clipPath>
-        <clipPath id="Spain_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Spain_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Spain_svg_clip5">
-          <path d="M 3 8 L 11 8 L 11 18 L 3 18 Z M 3 8 " />
+        <clipPath id="Spain_svg_prefix__e">
+          <path d="M3 8h8v10H3zm0 0" />
         </clipPath>
-        <clipPath id="Spain_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Spain_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Spain_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,80.392157%,32.54902%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Spain_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Spain_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 5.316406 L 0 5.316406 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ffcd53"
+      />
+      <g clipPath="url(#Spain_svg_prefix__a)">
+        <g clipPath="url(#Spain_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v5.316H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Spain_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Spain_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 19.675781 L 36.988281 19.675781 L 36.988281 24.992188 L 0 24.992188 Z M 0 19.675781 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Spain_svg_prefix__c)">
+        <g clipPath="url(#Spain_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 19.676h36.988v5.316H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Spain_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Spain_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 8.855469 9.304688 C 7.742188 9.304688 7.136719 8.507812 7.136719 8.507812 C 7.136719 8.507812 6.53125 9.304688 5.417969 9.304688 C 4.390625 9.304688 3.699219 8.644531 3.699219 8.644531 L 3.699219 12.980469 C 3.730469 15.835938 7.132812 17.015625 7.132812 17.015625 C 7.132812 17.015625 10.570312 15.835938 10.570312 12.980469 L 10.570312 8.644531 C 10.570312 8.644531 9.882812 9.304688 8.855469 9.304688 Z M 8.855469 9.304688 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Spain_svg_prefix__e)">
+        <g clipPath="url(#Spain_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M8.855 9.305c-1.113 0-1.718-.797-1.718-.797s-.606.797-1.719.797c-1.027 0-1.719-.66-1.719-.66v4.335c.031 2.856 3.434 4.036 3.434 4.036s3.437-1.18 3.437-4.036V8.645s-.687.66-1.715.66zm0 0"
+            fill="#ed5565"
+          />
         </g>
       </g>
     </svg>

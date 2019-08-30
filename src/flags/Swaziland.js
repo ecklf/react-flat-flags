@@ -16,112 +16,82 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Swaziland_svg_clip1">
-          <path d="M 0 4 L 37 4 L 37 22 L 0 22 Z M 0 4 " />
+        <clipPath id="Swaziland_svg_prefix__a">
+          <path d="M0 4h37v18H0zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Swaziland_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip3">
-          <path d="M 0 5 L 37 5 L 37 20 L 0 20 Z M 0 5 " />
+        <clipPath id="Swaziland_svg_prefix__c">
+          <path d="M0 5h37v15H0zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Swaziland_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip5">
-          <path d="M 8 10 L 30 10 L 30 12 L 8 12 Z M 8 10 " />
+        <clipPath id="Swaziland_svg_prefix__e">
+          <path d="M8 10h22v2H8zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Swaziland_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip7">
-          <path d="M 5 12 L 33 12 L 33 14 L 5 14 Z M 5 12 " />
+        <clipPath id="Swaziland_svg_prefix__g">
+          <path d="M5 12h28v2H5zm0 0" />
         </clipPath>
-        <clipPath id="Swaziland_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Swaziland_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Swaziland_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(27.843137%,34.117647%,66.27451%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Swaziland_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Swaziland_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 4.253906 L 36.988281 4.253906 L 36.988281 21.269531 L 0 21.269531 Z M 0 4.253906 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#4757a9"
+      />
+      <g clipPath="url(#Swaziland_svg_prefix__a)">
+        <g clipPath="url(#Swaziland_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 4.254h36.988V21.27H0zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
         </g>
-        <g clipPath="url(#Swaziland_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Swaziland_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 5.847656 L 36.988281 5.847656 L 36.988281 19.675781 L 0 19.675781 Z M 0 5.847656 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Swaziland_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Swaziland_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 8.453125 10.632812 L 29.589844 10.632812 L 29.589844 11.167969 L 8.453125 11.167969 Z M 8.453125 10.632812 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Swaziland_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#Swaziland_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 5.8125 12.761719 L 32.761719 12.761719 L 32.761719 13.824219 L 5.8125 13.824219 Z M 5.8125 12.761719 "
-            />
-          </g>
-        </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(26.27451%,28.627451%,32.54902%)",
-            fillOpacity: 1,
-          }}
-          d="M 15.851562 7.976562 C 18.480469 7.976562 20.609375 10.117188 20.609375 12.761719 C 20.609375 15.40625 18.480469 17.546875 15.851562 17.546875 C 13.226562 17.546875 11.097656 15.40625 11.097656 12.761719 C 11.097656 10.117188 13.226562 7.976562 15.851562 7.976562 Z M 15.851562 7.976562 "
-        />
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 21.664062 7.976562 C 24.292969 7.976562 26.421875 10.117188 26.421875 12.761719 C 26.421875 15.40625 24.292969 17.546875 21.664062 17.546875 C 19.039062 17.546875 16.910156 15.40625 16.910156 12.761719 C 16.910156 10.117188 19.039062 7.976562 21.664062 7.976562 Z M 21.664062 7.976562 "
-        />
       </g>
+      <g clipPath="url(#Swaziland_svg_prefix__c)">
+        <g clipPath="url(#Swaziland_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 5.848h36.988v13.828H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#Swaziland_svg_prefix__e)">
+        <g clipPath="url(#Swaziland_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M8.453 10.633H29.59v.535H8.453zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#Swaziland_svg_prefix__g)">
+        <g clipPath="url(#Swaziland_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M5.813 12.762h26.949v1.062H5.812zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
+        </g>
+      </g>
+      <path
+        d="M15.852 7.977c2.628 0 4.757 2.14 4.757 4.785 0 2.644-2.129 4.785-4.757 4.785-2.625 0-4.754-2.14-4.754-4.785s2.129-4.785 4.754-4.785zm0 0"
+        fillRule="evenodd"
+        fill="#434953"
+      />
+      <path
+        d="M21.664 7.977c2.629 0 4.758 2.14 4.758 4.785 0 2.644-2.129 4.785-4.758 4.785-2.625 0-4.754-2.14-4.754-4.785s2.13-4.785 4.754-4.785zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
     </svg>
   );
 };

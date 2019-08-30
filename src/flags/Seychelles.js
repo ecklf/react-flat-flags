@@ -16,92 +16,54 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Seychelles_svg_clip1">
-          <path d="M 0 0 L 14 0 L 14 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Seychelles_svg_prefix__a">
+          <path d="M0 0h14v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Seychelles_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip3">
-          <path d="M 0 0 L 25 0 L 25 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Seychelles_svg_prefix__c">
+          <path d="M0 0h25v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Seychelles_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip5">
-          <path d="M 0 6 L 37 6 L 37 25 L 0 25 Z M 0 6 " />
+        <clipPath id="Seychelles_svg_prefix__e">
+          <path d="M0 6h37v19H0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Seychelles_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip7">
-          <path d="M 0 14 L 37 14 L 37 25 L 0 25 Z M 0 14 " />
+        <clipPath id="Seychelles_svg_prefix__g">
+          <path d="M0 14h37v11H0zm0 0" />
         </clipPath>
-        <clipPath id="Seychelles_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Seychelles_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Seychelles_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(92.941176%,33.333333%,39.607843%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Seychelles_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Seychelles_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(27.843137%,34.117647%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.46875 25.460938 L 13.082031 -0.53125 L -0.46875 -0.53125 Z M -0.46875 25.460938 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ed5565"
+      />
+      <g clipPath="url(#Seychelles_svg_prefix__a)">
+        <g clipPath="url(#Seychelles_svg_prefix__b)" clipRule="evenodd">
+          <path d="M-.469 25.46L13.082-.53H-.468zm0 0" fill="#4757a9" />
         </g>
-        <g clipPath="url(#Seychelles_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Seychelles_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.96875 25.460938 L 12.582031 -0.53125 L 24.683594 -0.53125 Z M -0.96875 25.460938 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Seychelles_svg_prefix__c)">
+        <g clipPath="url(#Seychelles_svg_prefix__d)" clipRule="evenodd">
+          <path d="M-.969 25.46L12.582-.53h12.102zm0 0" fill="#ffcd53" />
         </g>
-        <g clipPath="url(#Seychelles_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Seychelles_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(100%,100%,100%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.527344 25.523438 L 41.082031 6.242188 L 41.082031 15.972656 Z M -0.527344 25.523438 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Seychelles_svg_prefix__e)">
+        <g clipPath="url(#Seychelles_svg_prefix__f)" clipRule="evenodd">
+          <path d="M-.527 25.523l41.609-19.28v9.73zm0 0" fill="#fff" />
         </g>
-        <g clipPath="url(#Seychelles_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#Seychelles_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.519531 24.992188 L 41.21875 24.992188 L 41.21875 14.894531 Z M -0.519531 24.992188 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Seychelles_svg_prefix__g)">
+        <g clipPath="url(#Seychelles_svg_prefix__h)" clipRule="evenodd">
+          <path d="M-.52 24.992H41.22V14.895zm0 0" fill="#57a763" />
         </g>
       </g>
     </svg>

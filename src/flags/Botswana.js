@@ -16,54 +16,40 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Botswana_svg_clip1">
-          <path d="M 0 9 L 37 9 L 37 17 L 0 17 Z M 0 9 " />
+        <clipPath id="Botswana_svg_prefix__a">
+          <path d="M0 9h37v8H0zm0 0" />
         </clipPath>
-        <clipPath id="Botswana_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Botswana_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Botswana_svg_clip3">
-          <path d="M 0 10 L 37 10 L 37 15 L 0 15 Z M 0 10 " />
+        <clipPath id="Botswana_svg_prefix__c">
+          <path d="M0 10h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Botswana_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Botswana_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Botswana_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(23.137255%,68.627451%,85.098039%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Botswana_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Botswana_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(96.078431%,96.862745%,97.647059%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 9.039062 L 36.988281 9.039062 L 36.988281 16.484375 L 0 16.484375 Z M 0 9.039062 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#3bafd9"
+      />
+      <g clipPath="url(#Botswana_svg_prefix__a)">
+        <g clipPath="url(#Botswana_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 9.04h36.988v7.444H0zm0 0"
+            fillRule="evenodd"
+            fill="#f5f7f9"
+          />
         </g>
-        <g clipPath="url(#Botswana_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Botswana_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 10.632812 L 36.988281 10.632812 L 36.988281 14.886719 L 0 14.886719 Z M 0 10.632812 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Botswana_svg_prefix__c)">
+        <g clipPath="url(#Botswana_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 10.633h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
       </g>
     </svg>

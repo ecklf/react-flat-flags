@@ -16,92 +16,68 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Croatia_svg_clip1">
-          <path d="M 0 17 L 37 17 L 37 25 L 0 25 Z M 0 17 " />
+        <clipPath id="Croatia_svg_prefix__a">
+          <path d="M0 17h37v8H0zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Croatia_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip3">
-          <path d="M 0 0 L 37 0 L 37 8 L 0 8 Z M 0 0 " />
+        <clipPath id="Croatia_svg_prefix__c">
+          <path d="M0 0h37v8H0zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Croatia_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip5">
-          <path d="M 13 4 L 25 4 L 25 21 L 13 21 Z M 13 4 " />
+        <clipPath id="Croatia_svg_prefix__e">
+          <path d="M13 4h12v17H13zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Croatia_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip7">
-          <path d="M 13 5 L 24 5 L 24 20 L 13 20 Z M 13 5 " />
+        <clipPath id="Croatia_svg_prefix__g">
+          <path d="M13 5h11v15H13zm0 0" />
         </clipPath>
-        <clipPath id="Croatia_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Croatia_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Croatia_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Croatia_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Croatia_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(27.45098%,34.509804%,66.27451%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 17.015625 L 36.988281 17.015625 L 36.988281 24.992188 L 0 24.992188 Z M 0 17.015625 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <g clipPath="url(#Croatia_svg_prefix__a)">
+        <g clipPath="url(#Croatia_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 17.016h36.988v7.976H0zm0 0"
+            fillRule="evenodd"
+            fill="#4658a9"
+          />
         </g>
-        <g clipPath="url(#Croatia_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Croatia_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 7.976562 L 0 7.976562 Z M 0 0 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Croatia_svg_prefix__c)">
+        <g clipPath="url(#Croatia_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v7.977H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Croatia_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Croatia_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(96.078431%,96.862745%,97.647059%)",
-                fillOpacity: 1,
-              }}
-              d="M 21.539062 6.234375 C 19.738281 6.234375 18.765625 4.785156 18.765625 4.785156 C 18.765625 4.785156 17.789062 6.234375 15.988281 6.234375 C 14.328125 6.234375 13.210938 5.03125 13.210938 5.03125 L 13.210938 12.890625 C 13.261719 18.066406 18.757812 20.207031 18.757812 20.207031 C 18.757812 20.207031 24.308594 18.066406 24.308594 12.890625 L 24.308594 5.03125 C 24.308594 5.03125 23.199219 6.234375 21.539062 6.234375 Z M 21.539062 6.234375 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Croatia_svg_prefix__e)">
+        <g clipPath="url(#Croatia_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M21.54 6.234c-1.802 0-2.774-1.449-2.774-1.449s-.977 1.45-2.778 1.45c-1.66 0-2.777-1.204-2.777-1.204v7.86c.05 5.175 5.547 7.316 5.547 7.316s5.55-2.14 5.55-7.316V5.03S23.2 6.234 21.54 6.234zm0 0"
+            fill="#f5f7f9"
+          />
         </g>
-        <g clipPath="url(#Croatia_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#Croatia_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "nonzero",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 20.878906 7.097656 C 19.335938 7.097656 18.5 5.847656 18.5 5.847656 C 18.5 5.847656 17.664062 7.097656 16.121094 7.097656 C 14.699219 7.097656 13.738281 6.0625 13.738281 6.0625 L 13.738281 12.835938 C 13.78125 17.296875 18.496094 19.140625 18.496094 19.140625 C 18.496094 19.140625 23.25 17.296875 23.25 12.835938 L 23.25 6.0625 C 23.25 6.0625 22.300781 7.097656 20.878906 7.097656 Z M 20.878906 7.097656 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#Croatia_svg_prefix__g)">
+        <g clipPath="url(#Croatia_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M20.879 7.098c-1.543 0-2.379-1.25-2.379-1.25s-.836 1.25-2.379 1.25c-1.422 0-2.383-1.035-2.383-1.035v6.773c.043 4.46 4.758 6.305 4.758 6.305s4.754-1.844 4.754-6.305V6.062s-.95 1.036-2.371 1.036zm0 0"
+            fill="#ed5565"
+          />
         </g>
       </g>
     </svg>

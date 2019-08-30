@@ -16,103 +16,77 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Uganda_svg_clip1">
-          <path d="M 0 0 L 37 0 L 37 5 L 0 5 Z M 0 0 " />
+        <clipPath id="Uganda_svg_prefix__a">
+          <path d="M0 0h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Uganda_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip3">
-          <path d="M 0 4 L 37 4 L 37 9 L 0 9 Z M 0 4 " />
+        <clipPath id="Uganda_svg_prefix__c">
+          <path d="M0 4h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Uganda_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip5">
-          <path d="M 0 12 L 37 12 L 37 18 L 0 18 Z M 0 12 " />
+        <clipPath id="Uganda_svg_prefix__e">
+          <path d="M0 12h37v6H0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Uganda_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip7">
-          <path d="M 0 17 L 37 17 L 37 22 L 0 22 Z M 0 17 " />
+        <clipPath id="Uganda_svg_prefix__g">
+          <path d="M0 17h37v5H0zm0 0" />
         </clipPath>
-        <clipPath id="Uganda_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Uganda_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Uganda_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(92.941176%,33.333333%,39.607843%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Uganda_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Uganda_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 4.253906 L 0 4.253906 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#ed5565"
+      />
+      <g clipPath="url(#Uganda_svg_prefix__a)">
+        <g clipPath="url(#Uganda_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
-        <g clipPath="url(#Uganda_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Uganda_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(96.078431%,73.333333%,25.490196%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 4.253906 L 36.988281 4.253906 L 36.988281 8.507812 L 0 8.507812 Z M 0 4.253906 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Uganda_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Uganda_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 12.761719 L 36.988281 12.761719 L 36.988281 17.015625 L 0 17.015625 Z M 0 12.761719 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Uganda_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#Uganda_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(96.078431%,73.333333%,25.490196%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 17.015625 L 36.988281 17.015625 L 36.988281 21.269531 L 0 21.269531 Z M 0 17.015625 "
-            />
-          </g>
-        </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 17.964844 8.507812 C 20.300781 8.507812 22.195312 10.414062 22.195312 12.761719 C 22.195312 15.109375 20.300781 17.015625 17.964844 17.015625 C 15.632812 17.015625 13.738281 15.109375 13.738281 12.761719 C 13.738281 10.414062 15.632812 8.507812 17.964844 8.507812 Z M 17.964844 8.507812 "
-        />
       </g>
+      <g clipPath="url(#Uganda_svg_prefix__c)">
+        <g clipPath="url(#Uganda_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 4.254h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#f5bb41"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#Uganda_svg_prefix__e)">
+        <g clipPath="url(#Uganda_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M0 12.762h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#Uganda_svg_prefix__g)">
+        <g clipPath="url(#Uganda_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M0 17.016h36.988v4.254H0zm0 0"
+            fillRule="evenodd"
+            fill="#f5bb41"
+          />
+        </g>
+      </g>
+      <path
+        d="M17.965 8.508c2.336 0 4.23 1.906 4.23 4.254 0 2.347-1.894 4.254-4.23 4.254-2.332 0-4.227-1.907-4.227-4.254 0-2.348 1.895-4.254 4.227-4.254zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
     </svg>
   );
 };

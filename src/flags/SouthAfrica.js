@@ -16,149 +16,115 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="SouthAfrica_svg_clip1">
-          <path d="M 0 0 L 37 0 L 37 11 L 0 11 Z M 0 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__h">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__a">
+          <path d="M0 0h37v11H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip3">
-          <path d="M 0 0 L 27 0 L 27 25 L 0 25 Z M 0 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__c">
+          <path d="M0 0h27v25H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip5">
-          <path d="M 14 8 L 37 8 L 37 17 L 14 17 Z M 14 8 " />
+        <clipPath id="SouthAfrica_svg_prefix__e">
+          <path d="M14 8h23v9H14zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip7">
-          <path d="M 0 0 L 24 0 L 24 25 L 0 25 Z M 0 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__g">
+          <path d="M0 0h24v25H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip8">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip9">
-          <path d="M 14 9 L 37 9 L 37 16 L 14 16 Z M 14 9 " />
+        <clipPath id="SouthAfrica_svg_prefix__i">
+          <path d="M14 9h23v7H14zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip10">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__j">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip11">
-          <path d="M 0 4 L 16 4 L 16 22 L 0 22 Z M 0 4 " />
+        <clipPath id="SouthAfrica_svg_prefix__k">
+          <path d="M0 4h16v18H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip12">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__l">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip13">
-          <path d="M 0 5 L 13 5 L 13 21 L 0 21 Z M 0 5 " />
+        <clipPath id="SouthAfrica_svg_prefix__m">
+          <path d="M0 5h13v16H0zm0 0" />
         </clipPath>
-        <clipPath id="SouthAfrica_svg_clip14">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="SouthAfrica_svg_prefix__n">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="SouthAfrica_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(27.843137%,34.117647%,66.27451%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#SouthAfrica_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 36.988281 0 L 36.988281 10.632812 L 0 10.632812 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#4757a9"
+      />
+      <g clipPath="url(#SouthAfrica_svg_prefix__a)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h36.988v10.633H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#SouthAfrica_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,100%,100%)",
-                fillOpacity: 1,
-              }}
-              d="M -3.179688 12.496094 L -3.058594 -4.261719 L 26.578125 12.496094 L -3.058594 29.253906 Z M -3.179688 12.496094 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SouthAfrica_svg_prefix__c)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M-3.18 12.496l.121-16.758 29.637 16.758-29.637 16.758zm0 0"
+            fillRule="evenodd"
+            fill="#fff"
+          />
         </g>
-        <g clipPath="url(#SouthAfrica_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,100%,100%)",
-                fillOpacity: 1,
-              }}
-              d="M 14.800781 8.515625 L 40.160156 8.515625 L 40.160156 16.476562 L 14.800781 16.476562 Z M 14.800781 8.515625 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SouthAfrica_svg_prefix__e)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M14.8 8.516h25.36v7.96H14.8zm0 0"
+            fillRule="evenodd"
+            fill="#fff"
+          />
         </g>
-        <g clipPath="url(#SouthAfrica_svg_clip7)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip8)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M -2.121094 12.496094 L -2.015625 -2.132812 L 23.785156 12.496094 L -2.015625 27.125 Z M -2.121094 12.496094 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SouthAfrica_svg_prefix__g)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__h)" clipRule="evenodd">
+          <path
+            d="M-2.121 12.496l.105-14.629 25.801 14.63-25.8 14.628zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
-        <g clipPath="url(#SouthAfrica_svg_clip9)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip10)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(34.117647%,65.490196%,38.823529%)",
-                fillOpacity: 1,
-              }}
-              d="M 14.796875 9.570312 L 36.988281 9.570312 L 36.988281 15.421875 L 14.796875 15.421875 Z M 14.796875 9.570312 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SouthAfrica_svg_prefix__i)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__j)" clipRule="evenodd">
+          <path
+            d="M14.797 9.57h22.191v5.852H14.797zm0 0"
+            fillRule="evenodd"
+            fill="#57a763"
+          />
         </g>
-        <g clipPath="url(#SouthAfrica_svg_clip11)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip12)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,80.392157%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.00390625 13.027344 L 0.0585938 4.25 L 15.328125 13.027344 L 0.0585938 21.804688 Z M -0.00390625 13.027344 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SouthAfrica_svg_prefix__k)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__l)" clipRule="evenodd">
+          <path
+            d="M-.004 13.027L.06 4.25l15.27 8.777-15.27 8.778zm0 0"
+            fillRule="evenodd"
+            fill="#ffcd53"
+          />
         </g>
-        <g clipPath="url(#SouthAfrica_svg_clip13)" clipRule="nonzero">
-          <g clipPath="url(#SouthAfrica_svg_clip14)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(26.27451%,28.627451%,32.54902%)",
-                fillOpacity: 1,
-              }}
-              d="M -0.00390625 13.027344 L 0.046875 5.847656 L 12.683594 13.027344 L 0.046875 20.210938 Z M -0.00390625 13.027344 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#SouthAfrica_svg_prefix__m)">
+        <g clipPath="url(#SouthAfrica_svg_prefix__n)" clipRule="evenodd">
+          <path
+            d="M-.004 13.027l.05-7.18 12.638 7.18L.047 20.211zm0 0"
+            fillRule="evenodd"
+            fill="#434953"
+          />
         </g>
       </g>
     </svg>

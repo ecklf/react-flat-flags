@@ -16,84 +16,58 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Oman_svg_clip1">
-          <path d="M 0 0 L 10 0 L 10 25 L 0 25 Z M 0 0 " />
+        <clipPath id="Oman_svg_prefix__a">
+          <path d="M0 0h10v25H0zm0 0" />
         </clipPath>
-        <clipPath id="Oman_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Oman_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Oman_svg_clip3">
-          <path d="M 9 8 L 37 8 L 37 18 L 9 18 Z M 9 8 " />
+        <clipPath id="Oman_svg_prefix__c">
+          <path d="M9 8h28v10H9zm0 0" />
         </clipPath>
-        <clipPath id="Oman_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Oman_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="Oman_svg_clip5">
-          <path d="M 9 17 L 37 17 L 37 25 L 9 25 Z M 9 17 " />
+        <clipPath id="Oman_svg_prefix__e">
+          <path d="M9 17h28v8H9zm0 0" />
         </clipPath>
-        <clipPath id="Oman_svg_clip6">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="Oman_svg_prefix__f">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="Oman_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#Oman_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#Oman_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 9.511719 0 L 9.511719 24.992188 L 0 24.992188 Z M 0 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <g clipPath="url(#Oman_svg_prefix__a)">
+        <g clipPath="url(#Oman_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M0 0h9.512v24.992H0zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
         </g>
-        <g clipPath="url(#Oman_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#Oman_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(92.941176%,33.333333%,39.607843%)",
-                fillOpacity: 1,
-              }}
-              d="M 9.511719 8.507812 L 36.988281 8.507812 L 36.988281 17.015625 L 9.511719 17.015625 Z M 9.511719 8.507812 "
-            />
-          </g>
-        </g>
-        <g clipPath="url(#Oman_svg_clip5)" clipRule="nonzero">
-          <g clipPath="url(#Oman_svg_clip6)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(31.764706%,75.686275%,38.039216%)",
-                fillOpacity: 1,
-              }}
-              d="M 9.511719 17.015625 L 36.988281 17.015625 L 36.988281 24.992188 L 9.511719 24.992188 Z M 9.511719 17.015625 "
-            />
-          </g>
-        </g>
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(100%,100%,100%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.699219 3.722656 L 6.339844 3.722656 L 6.339844 6.378906 L 3.699219 6.378906 Z M 3.699219 3.722656 "
-        />
       </g>
+      <g clipPath="url(#Oman_svg_prefix__c)">
+        <g clipPath="url(#Oman_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M9.512 8.508h27.476v8.508H9.512zm0 0"
+            fillRule="evenodd"
+            fill="#ed5565"
+          />
+        </g>
+      </g>
+      <g clipPath="url(#Oman_svg_prefix__e)">
+        <g clipPath="url(#Oman_svg_prefix__f)" clipRule="evenodd">
+          <path
+            d="M9.512 17.016h27.476v7.976H9.512zm0 0"
+            fillRule="evenodd"
+            fill="#51c161"
+          />
+        </g>
+      </g>
+      <path d="M3.7 3.723h2.64v2.656H3.7zm0 0" fillRule="evenodd" fill="#fff" />
     </svg>
   );
 };

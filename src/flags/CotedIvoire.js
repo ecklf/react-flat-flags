@@ -16,54 +16,40 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="CotedIvoire_svg_clip1">
-          <path d="M 24 0 L 37 0 L 37 25 L 24 25 Z M 24 0 " />
+        <clipPath id="CotedIvoire_svg_prefix__a">
+          <path d="M24 0h13v25H24zm0 0" />
         </clipPath>
-        <clipPath id="CotedIvoire_svg_clip2">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="CotedIvoire_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="CotedIvoire_svg_clip3">
-          <path d="M 0 0 L 13 0 L 13 25 L 0 25 Z M 0 0 " />
+        <clipPath id="CotedIvoire_svg_prefix__c">
+          <path d="M0 0h13v25H0zm0 0" />
         </clipPath>
-        <clipPath id="CotedIvoire_svg_clip4">
-          <path d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 " />
+        <clipPath id="CotedIvoire_svg_prefix__d">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
       </defs>
-      <g id="CotedIvoire_svg_surface1">
-        <path
-          style={{
-            stroke: "none",
-            fillRule: "evenodd",
-            fill: "rgb(96.078431%,96.862745%,97.647059%)",
-            fillOpacity: 1,
-          }}
-          d="M 3.363281 0 L 33.625 0 C 35.484375 0 36.988281 1.527344 36.988281 3.40625 L 36.988281 21.582031 C 36.988281 23.464844 35.484375 24.992188 33.625 24.992188 L 3.363281 24.992188 C 1.503906 24.992188 0 23.464844 0 21.582031 L 0 3.40625 C 0 1.527344 1.503906 0 3.363281 0 Z M 3.363281 0 "
-        />
-        <g clipPath="url(#CotedIvoire_svg_clip1)" clipRule="nonzero">
-          <g clipPath="url(#CotedIvoire_svg_clip2)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(31.764706%,75.686275%,38.039216%)",
-                fillOpacity: 1,
-              }}
-              d="M 24.835938 0 L 36.988281 0 L 36.988281 24.992188 L 24.835938 24.992188 Z M 24.835938 0 "
-            />
-          </g>
+      <path
+        d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0"
+        fillRule="evenodd"
+        fill="#f5f7f9"
+      />
+      <g clipPath="url(#CotedIvoire_svg_prefix__a)">
+        <g clipPath="url(#CotedIvoire_svg_prefix__b)" clipRule="evenodd">
+          <path
+            d="M24.836 0h12.152v24.992H24.836zm0 0"
+            fillRule="evenodd"
+            fill="#51c161"
+          />
         </g>
-        <g clipPath="url(#CotedIvoire_svg_clip3)" clipRule="nonzero">
-          <g clipPath="url(#CotedIvoire_svg_clip4)" clipRule="evenodd">
-            <path
-              style={{
-                stroke: "none",
-                fillRule: "evenodd",
-                fill: "rgb(100%,67.45098%,32.941176%)",
-                fillOpacity: 1,
-              }}
-              d="M 0 0 L 12.152344 0 L 12.152344 24.992188 L 0 24.992188 Z M 0 0 "
-            />
-          </g>
+      </g>
+      <g clipPath="url(#CotedIvoire_svg_prefix__c)">
+        <g clipPath="url(#CotedIvoire_svg_prefix__d)" clipRule="evenodd">
+          <path
+            d="M0 0h12.152v24.992H0zm0 0"
+            fillRule="evenodd"
+            fill="#ffac54"
+          />
         </g>
       </g>
     </svg>
