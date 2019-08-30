@@ -1,0 +1,9 @@
+# System junk
+.DS_Store
+
+# Development files
+.babelrc
+rollup.config.js
+bin/
+svg/
+src/

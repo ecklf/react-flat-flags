@@ -1,0 +1,50 @@
+{
+  "name": "react-flat-flags",
+  "version": "1.0.0",
+  "description": "Flat Flags for React",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "nodemon -w bin/build.js -r esm bin/build.js",
+    "format": "prettier --trailing-comma es5 --write 'src/**/*.js'",
+    "compile": "rm -rf src/ && node -r esm bin/build.js && yarn format",
+    "build:es": "rm -rf dist && babel src --out-dir dist --copy-files",
+    "build:bundle": "rm -rf build && rollup --config rollup.config.js",
+    "build": "concurrently \"npm:build:*\"",
+    "deploy": "yarn compile && yarn build"
+  },
+  "repository": "https://github.com/impulse/react-flat-flags",
+  "keywords": ["react", "flat", "flag", "svg", "design"],
+  "author": "impulse",
+  "license": "MIT",
+  "homepage": "https://github.com/impulse/react-flat-flags/#readme",
+  "bugs": {
+    "url": "https://github.com/impulse/react-flat-flags/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@svgr/core": "^4.3.2",
+    "@svgr/plugin-jsx": "^4.3.2",
+    "@svgr/plugin-prettier": "^4.3.2",
+    "@svgr/plugin-svgo": "^4.3.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^4.1.2",
+    "esm": "^3.2.25",
+    "prettier": "^1.18.2",
+    "rollup": "^1.20.3",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0"
+  }
+}
