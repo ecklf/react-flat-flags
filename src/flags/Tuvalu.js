@@ -71,7 +71,10 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       />
       <g clipPath="url(#Tuvalu_svg_prefix__a)">
         <g clipPath="url(#Tuvalu_svg_prefix__b)" clipRule="evenodd">
-          <use xlinkHref="#prefix__c" transform="matrix(.019 0 0 .01913 0 0)" />
+          <use
+            xlinkHref="#Tuvalu_svg_prefix__c"
+            transform="matrix(.019 0 0 .01913 0 0)"
+          />
         </g>
       </g>
       <g clipPath="url(#Tuvalu_svg_prefix__d)">

@@ -19,5 +19,6 @@ export default (componentName, svgCode) => {
       // Generate unique id's to prevent conflicts
       .replace(/id="/gm, `id="${componentName}_svg_`)
       .replace(/url\(#/gm, `url(#${componentName}_svg_`)
+      .replace(/xlinkHref="#/gm, `xlinkHref="#${componentName}_svg_`)
   );
 };

@@ -89,7 +89,7 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       />
       <g clipPath="url(#Fiji_svg_prefix__a)">
         <g clipPath="url(#Fiji_svg_prefix__b)" clipRule="evenodd">
-          <use xlinkHref="#prefix__c" transform="scale(.019 .01913)" />
+          <use xlinkHref="#Fiji_svg_prefix__c" transform="scale(.019 .01913)" />
         </g>
       </g>
       <g clipPath="url(#Fiji_svg_prefix__d)">

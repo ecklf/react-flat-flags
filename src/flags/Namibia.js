@@ -47,7 +47,10 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         </g>
       </g>
       <g clipPath="url(#Namibia_svg_prefix__c)" clipRule="evenodd">
-        <use xlinkHref="#prefix__d" transform="matrix(.01902 0 0 .01914 0 0)" />
+        <use
+          xlinkHref="#Namibia_svg_prefix__d"
+          transform="matrix(.01902 0 0 .01914 0 0)"
+        />
       </g>
       <path
         d="M5.285 3.723a2.12 2.12 0 012.113 2.125 2.12 2.12 0 01-2.113 2.129 2.12 2.12 0 01-2.113-2.13 2.12 2.12 0 012.113-2.124zm0 0"

@@ -32,7 +32,10 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         fill="#ed5565"
       />
       <g clipPath="url(#TrinidadAndTobago_svg_prefix__a)" clipRule="evenodd">
-        <use xlinkHref="#prefix__b" transform="matrix(.01902 0 0 .01914 0 0)" />
+        <use
+          xlinkHref="#TrinidadAndTobago_svg_prefix__b"
+          transform="matrix(.01902 0 0 .01914 0 0)"
+        />
       </g>
     </svg>
   );

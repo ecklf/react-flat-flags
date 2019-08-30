@@ -22,8 +22,8 @@ npm install react-flat-flags
 ### Usage
 
 ```javascript
-import React from "react";
-import { Germany } from "react-flat-flags";
+import React from 'react';
+import {Germany} from 'react-flat-flags';
 
 const App = () => {
   return <Germany />;
@@ -48,26 +48,26 @@ You can also distort them by only passing width / height values
 Also works great with utility classes i.e. frameworks like tailwindcss
 
 ```javascript
-<Germany className="h-12 w-auto />
+<Germany className="h-12 w-auto" />
 ```
 
 If you can't use ES6 imports, it's possible to include flag from the compiled folder ./dist.
 
 ```javascript
-var Germany = require("react-flat-flags/dist/flags/Germany").default;
+var Germany = require('react-flat-flags/dist/flags/Germany').default;
 
 var MyComponent = React.createClass({
   render: function() {
     return <Germany />;
-  }
+  },
 });
 ```
 
 You can also include the whole flag pack:
 
 ```javascript
-import React from "react";
-import * as Flag from "react-flat-flags";
+import React from 'react';
+import * as Flag from 'react-flat-flags';
 
 const App = () => {
   return <Flag.Germany />;

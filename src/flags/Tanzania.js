@@ -47,7 +47,10 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         </g>
       </g>
       <g clipPath="url(#Tanzania_svg_prefix__c)" clipRule="evenodd">
-        <use xlinkHref="#prefix__d" transform="matrix(.01902 0 0 .01914 0 0)" />
+        <use
+          xlinkHref="#Tanzania_svg_prefix__d"
+          transform="matrix(.01902 0 0 .01914 0 0)"
+        />
       </g>
     </svg>
   );

@@ -59,7 +59,7 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         </g>
       </g>
       <use
-        xlinkHref="#prefix__e"
+        xlinkHref="#Mexico_svg_prefix__e"
         transform="matrix(.019 0 0 .01911 14.259 8.5)"
       />
     </svg>
