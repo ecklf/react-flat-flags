@@ -16,11 +16,11 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Kenya_svg_prefix__j">
-          <path d="M18.23 2.125c2.188 0 3.965 4.645 3.965 10.371 0 5.727-1.777 10.367-3.965 10.367-2.187 0-3.964-4.64-3.964-10.367 0-5.726 1.777-10.371 3.964-10.371zm0 0" />
-        </clipPath>
         <clipPath id="Kenya_svg_prefix__a">
           <path d="M0 0h37v13H0zm0 0" />
+        </clipPath>
+        <clipPath id="Kenya_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
         <clipPath id="Kenya_svg_prefix__c">
           <path d="M0 6h37v13H0zm0 0" />
@@ -43,8 +43,8 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         <clipPath id="Kenya_svg_prefix__i">
           <path d="M14 5h3v15h-3zm0 0" />
         </clipPath>
-        <clipPath id="Kenya_svg_prefix__b">
-          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
+        <clipPath id="Kenya_svg_prefix__j">
+          <path d="M18.23 2.125c2.188 0 3.965 4.645 3.965 10.371 0 5.727-1.777 10.367-3.965 10.367-2.187 0-3.964-4.64-3.964-10.367 0-5.726 1.777-10.371 3.964-10.371zm0 0" />
         </clipPath>
         <clipPath id="Kenya_svg_prefix__k">
           <path d="M18 4h2v8h-2zm0 0" />

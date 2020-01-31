@@ -16,14 +16,11 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Australia_svg_prefix__g">
-          <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
-        </clipPath>
         <clipPath id="Australia_svg_prefix__a">
           <path d="M0 0h14v13H0zm0 0" />
         </clipPath>
-        <clipPath id="Australia_svg_prefix__l">
-          <path d="M0 0h14v13H0zm0 0" />
+        <clipPath id="Australia_svg_prefix__b">
+          <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
         </clipPath>
         <clipPath id="Australia_svg_prefix__d">
           <path d="M5 0h3v13H5zm0 0" />
@@ -34,7 +31,7 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         <clipPath id="Australia_svg_prefix__f">
           <path d="M0 5h14v3H0zm0 0" />
         </clipPath>
-        <clipPath id="Australia_svg_prefix__b">
+        <clipPath id="Australia_svg_prefix__g">
           <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
         </clipPath>
         <clipPath id="Australia_svg_prefix__h">
@@ -48,6 +45,9 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         </clipPath>
         <clipPath id="Australia_svg_prefix__k">
           <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
+        </clipPath>
+        <clipPath id="Australia_svg_prefix__l">
+          <path d="M0 0h14v13H0zm0 0" />
         </clipPath>
         <clipPath id="Australia_svg_prefix__m">
           <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />

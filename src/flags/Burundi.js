@@ -16,11 +16,11 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Burundi_svg_prefix__g">
-          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
-        </clipPath>
         <clipPath id="Burundi_svg_prefix__a">
           <path d="M18 0h19v24H18zm0 0" />
+        </clipPath>
+        <clipPath id="Burundi_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
         <clipPath id="Burundi_svg_prefix__c">
           <path d="M0 0h18v24H0zm0 0" />
@@ -34,7 +34,7 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         <clipPath id="Burundi_svg_prefix__f">
           <path d="M11 4h16v17H11zm0 0" />
         </clipPath>
-        <clipPath id="Burundi_svg_prefix__b">
+        <clipPath id="Burundi_svg_prefix__g">
           <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
         <clipPath id="Burundi_svg_prefix__h">

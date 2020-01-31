@@ -16,14 +16,11 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="Fiji_svg_prefix__j">
-          <path d="M0 5h14v2H0zm0 0" />
-        </clipPath>
         <clipPath id="Fiji_svg_prefix__a">
           <path d="M0 0h14v13H0zm0 0" />
         </clipPath>
-        <clipPath id="Fiji_svg_prefix__r">
-          <path d="M23 4h4v15h-4zm0 0" />
+        <clipPath id="Fiji_svg_prefix__b">
+          <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
         </clipPath>
         <clipPath id="Fiji_svg_prefix__d">
           <path d="M5 0h3v13H5zm0 0" />
@@ -43,8 +40,8 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         <clipPath id="Fiji_svg_prefix__i">
           <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
         </clipPath>
-        <clipPath id="Fiji_svg_prefix__b">
-          <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
+        <clipPath id="Fiji_svg_prefix__j">
+          <path d="M0 5h14v2H0zm0 0" />
         </clipPath>
         <clipPath id="Fiji_svg_prefix__k">
           <path d="M2.64 0h10.57v12.762H0V2.66C0 1.328 1.32 0 2.64 0zm0 0" />
@@ -66,6 +63,9 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         </clipPath>
         <clipPath id="Fiji_svg_prefix__q">
           <path d="M27.617 6.082c-1.629 0-2.512-1.297-2.512-1.297s-.882 1.297-2.511 1.297c-1.5 0-2.516-1.078-2.516-1.078v7.047c.047 4.64 5.024 6.558 5.024 6.558s5.02-1.918 5.02-6.558V5.004s-1.005 1.078-2.505 1.078zm0 0" />
+        </clipPath>
+        <clipPath id="Fiji_svg_prefix__r">
+          <path d="M23 4h4v15h-4zm0 0" />
         </clipPath>
         <clipPath id="Fiji_svg_prefix__s">
           <path d="M27.617 6.082c-1.629 0-2.512-1.297-2.512-1.297s-.882 1.297-2.511 1.297c-1.5 0-2.516-1.078-2.516-1.078v7.047c.047 4.64 5.024 6.558 5.024 6.558s5.02-1.918 5.02-6.558V5.004s-1.005 1.078-2.505 1.078zm0 0" />

@@ -29,9 +29,7 @@ export { default as Cambodia } from "./flags/Cambodia";
 export { default as Cameroon } from "./flags/Cameroon";
 export { default as Canada } from "./flags/Canada";
 export { default as CapeVerde } from "./flags/CapeVerde";
-export {
-  default as CentralAfricanRepublic,
-} from "./flags/CentralAfricanRepublic";
+export { default as CentralAfricanRepublic } from "./flags/CentralAfricanRepublic";
 export { default as Chad } from "./flags/Chad";
 export { default as Chile } from "./flags/Chile";
 export { default as China } from "./flags/China";
@@ -146,9 +144,7 @@ export { default as Russia } from "./flags/Russia";
 export { default as Rwanda } from "./flags/Rwanda";
 export { default as SaintKittsAndNevis } from "./flags/SaintKittsAndNevis";
 export { default as SaintLucia } from "./flags/SaintLucia";
-export {
-  default as SaintVincentAndGrenadines,
-} from "./flags/SaintVincentAndGrenadines";
+export { default as SaintVincentAndGrenadines } from "./flags/SaintVincentAndGrenadines";
 export { default as Samoa } from "./flags/Samoa";
 export { default as SanMarino } from "./flags/SanMarino";
 export { default as SaoTomeAndPrincipe } from "./flags/SaoTomeAndPrincipe";

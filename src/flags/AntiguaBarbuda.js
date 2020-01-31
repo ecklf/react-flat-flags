@@ -16,11 +16,11 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="AntiguaBarbuda_svg_prefix__g">
-          <path d="M0 17h37v8H0zm0 0" />
-        </clipPath>
         <clipPath id="AntiguaBarbuda_svg_prefix__a">
           <path d="M0 0h37v9H0zm0 0" />
+        </clipPath>
+        <clipPath id="AntiguaBarbuda_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
         <clipPath id="AntiguaBarbuda_svg_prefix__c">
           <path d="M13 3h11v11H13zm0 0" />
@@ -34,8 +34,8 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         <clipPath id="AntiguaBarbuda_svg_prefix__f">
           <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
-        <clipPath id="AntiguaBarbuda_svg_prefix__b">
-          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
+        <clipPath id="AntiguaBarbuda_svg_prefix__g">
+          <path d="M0 17h37v8H0zm0 0" />
         </clipPath>
         <clipPath id="AntiguaBarbuda_svg_prefix__h">
           <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />

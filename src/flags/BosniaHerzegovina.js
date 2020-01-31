@@ -16,11 +16,11 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
       {...otherProps}
     >
       <defs>
-        <clipPath id="BosniaHerzegovina_svg_prefix__j">
-          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
-        </clipPath>
         <clipPath id="BosniaHerzegovina_svg_prefix__a">
           <path d="M6 0h21v25H6zm0 0" />
+        </clipPath>
+        <clipPath id="BosniaHerzegovina_svg_prefix__b">
+          <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
         <clipPath id="BosniaHerzegovina_svg_prefix__c">
           <path d="M3 1h4v3H3zm0 0" />
@@ -43,7 +43,7 @@ const SvgComponent = ({ size, width, height, ...otherProps }) => {
         <clipPath id="BosniaHerzegovina_svg_prefix__i">
           <path d="M10 9h4v4h-4zm0 0" />
         </clipPath>
-        <clipPath id="BosniaHerzegovina_svg_prefix__b">
+        <clipPath id="BosniaHerzegovina_svg_prefix__j">
           <path d="M3.363 0h30.262c1.86 0 3.363 1.527 3.363 3.406v18.176c0 1.883-1.504 3.41-3.363 3.41H3.363c-1.86 0-3.363-1.527-3.363-3.41V3.406C0 1.527 1.504 0 3.363 0zm0 0" />
         </clipPath>
         <clipPath id="BosniaHerzegovina_svg_prefix__k">

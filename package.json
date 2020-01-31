@@ -24,27 +24,27 @@
     "url": "https://github.com/impulse/react-flat-flags/issues"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "@svgr/core": "^4.3.2",
-    "@svgr/plugin-jsx": "^4.3.2",
-    "@svgr/plugin-prettier": "^4.3.2",
-    "@svgr/plugin-svgo": "^4.3.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@svgr/core": "^5.0.1",
+    "@svgr/plugin-jsx": "^5.0.1",
+    "@svgr/plugin-prettier": "^5.0.1",
+    "@svgr/plugin-svgo": "^5.1.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "concurrently": "^4.1.2",
+    "concurrently": "^5.1.0",
     "esm": "^3.2.25",
-    "prettier": "^1.18.2",
-    "rollup": "^1.20.3",
+    "prettier": "^1.19.1",
+    "rollup": "^1.31.0",
     "rollup-plugin-babel": "^4.3.3"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^16.12.0"
   }
 }
