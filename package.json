@@ -1,6 +1,6 @@
 {
   "name": "react-flat-flags",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Flat Flags for React",
   "main": "index.js",
   "module": "dist/index.js",
@@ -16,7 +16,13 @@
     "deploy": "yarn compile && yarn build"
   },
   "repository": "https://github.com/impulse/react-flat-flags",
-  "keywords": ["react", "flat", "flag", "svg", "design"],
+  "keywords": [
+    "react",
+    "flat",
+    "flag",
+    "svg",
+    "design"
+  ],
   "author": "impulse",
   "license": "MIT",
   "homepage": "https://github.com/impulse/react-flat-flags/#readme",
