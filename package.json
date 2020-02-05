@@ -1,6 +1,6 @@
 {
   "name": "react-flat-flags",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Flat Flags for React",
   "main": "index.js",
   "module": "dist/index.js",
